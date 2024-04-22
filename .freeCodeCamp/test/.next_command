@@ -1,0 +1,10 @@
+psql -U postgres < universe.sql
+psql --username=freecodecamp --dbname=postgres
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+psql --username=freecodecamp --dbname=postgres
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+git remote add origin https://github.com/yusrilza201/Build-a-Celestial-Bodies-Database.git
+git remote remove origin
+git remote add origin https://github.com/yusrilza201/Build-a-Celestial-Bodies-Database.git
+git checkout -b feat/Build-a-Celestial-Bodies-Database
+git add .
